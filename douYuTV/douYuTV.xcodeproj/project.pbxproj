@@ -15,7 +15,7 @@
 		8E3DA49B1DA1003200B28BD3 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3DA4991DA1003200B28BD3 /* Live.storyboard */; };
 		8E3DA49E1DA1006100B28BD3 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3DA49C1DA1006100B28BD3 /* Follow.storyboard */; };
 		8E3DA4A11DA1011900B28BD3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3DA49F1DA1011900B28BD3 /* Profile.storyboard */; };
-		8E3DA4AB1DA1773C00B28BD3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4A81DA1773C00B28BD3 /* MainViewController.swift */; };
+		8E3DA4B31DA1816F00B28BD3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4B01DA1816F00B28BD3 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		8E3DA49A1DA1003200B28BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
 		8E3DA49D1DA1006100B28BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
 		8E3DA4A01DA1011900B28BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
-		8E3DA4A81DA1773C00B28BD3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8E3DA4B01DA1816F00B28BD3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,9 @@
 		8E3DA4A51DA1773C00B28BD3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8E3DA4961DA1001500B28BD3 /* Home.storyboard */,
+				8E3DA4AC1DA1815900B28BD3 /* Controller */,
+				8E3DA4AD1DA1815900B28BD3 /* Model */,
+				8E3DA4AE1DA1815900B28BD3 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -111,8 +113,9 @@
 		8E3DA4A71DA1773C00B28BD3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				8E3DA47F1DA0F67C00B28BD3 /* Main.storyboard */,
-				8E3DA4A81DA1773C00B28BD3 /* MainViewController.swift */,
+				8E3DA4AF1DA1816F00B28BD3 /* Controller */,
+				8E3DA4B11DA1816F00B28BD3 /* Model */,
+				8E3DA4B21DA1816F00B28BD3 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -130,6 +133,51 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		8E3DA4AC1DA1815900B28BD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E3DA4961DA1001500B28BD3 /* Home.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E3DA4AD1DA1815900B28BD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E3DA4AE1DA1815900B28BD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E3DA4AF1DA1816F00B28BD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E3DA47F1DA0F67C00B28BD3 /* Main.storyboard */,
+				8E3DA4B01DA1816F00B28BD3 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E3DA4B11DA1816F00B28BD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E3DA4B21DA1816F00B28BD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3DA4AB1DA1773C00B28BD3 /* MainViewController.swift in Sources */,
+				8E3DA4B31DA1816F00B28BD3 /* MainViewController.swift in Sources */,
 				8E3DA47C1DA0F67C00B28BD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +271,7 @@
 				8E3DA4801DA0F67C00B28BD3 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../..;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		8E3DA4841DA0F67C00B28BD3 /* LaunchScreen.storyboard */ = {
@@ -240,7 +288,7 @@
 				8E3DA4971DA1001500B28BD3 /* Base */,
 			);
 			name = Home.storyboard;
-			path = ../..;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		8E3DA4991DA1003200B28BD3 /* Live.storyboard */ = {
