@@ -18,6 +18,7 @@ class MainViewController: UITabBarController {
         addChildVC(storyName: "Follow")
         addChildVC(storyName: "Profile")
         
+        
     }
     
     /// 从Storyboard创建控制器
