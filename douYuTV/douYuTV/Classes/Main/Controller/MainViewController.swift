@@ -18,9 +18,9 @@ class MainViewController: UITabBarController {
         addChildVC(storyName: "Follow")
         addChildVC(storyName: "Profile")
         
-        
     }
     
+
     /// 从Storyboard创建控制器
     func addChildVC(storyName:String) {
         let childVC = UIStoryboard(name: storyName, bundle: nil).instantiateInitialViewController()!
