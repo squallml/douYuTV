@@ -18,6 +18,7 @@ class PageTitleView: UIView {
     // MARK: - 定义属性
     fileprivate var titles: [String]
     
+    
     // MARK: - 懒加载
     fileprivate lazy var titleLabels : [UILabel] = [UILabel]()
     
